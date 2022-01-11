@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost [2]">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.32">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <ServerVersion>5.5.27</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="information_schema">
+      <Current>1</Current>
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="3" parent="1" name="library">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="4" parent="1" name="ma">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="5" parent="1" name="mysql">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="6" parent="1" name="performance_schema">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="7" parent="1" name="sakila">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="8" parent="1" name="test">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="9" parent="1" name="world">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+  </database-model>
+</dataSource>
